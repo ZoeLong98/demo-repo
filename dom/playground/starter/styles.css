@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+    padding: 0;
+    margin: 0;
+}
+  
+.flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    line-height: 125px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.more{
+  display: none;
+}
+
+.odd{
+}
+
+#one {
+}
