@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Famous Cats</title>
+    <link rel="icon" type="image/png" href="/images/cat.png">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Famous Cats</h1>
+    </header>
+    <nav class="navbar">
+        <a href="/cats">List</a>
+    </nav>
+
+
+    <div class="container">
+
+    <% for (let i = 0; i < cats.length; i++) { %>
+        <article class="cat-listing">
+            <div>Name: 
+                <a href="/cats/<%= cats[i].id %>">
+                    <%= cats[i].name %>
+                </a>
+            </div>
+        </article>
+    <% } %>
+    </div>
+    <footer>
+        <span id="contact">© Famous Cats Inc 2024</span>
+    </footer>    
+</body>
+
+</html>
