@@ -1,2 +1,3 @@
 complete/
 node_modules
+.env
